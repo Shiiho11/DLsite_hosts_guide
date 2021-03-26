@@ -22,7 +22,7 @@
 假如是重新修改hosts文件，记得替换掉以前的内容。  
 假如没有权限，请百度搜索：hosts、没有权限等关键词，自行解决。  
 ![2_4](images/2_4.png)
-5.	如www.dlsite.com网址依然无法访问，请多刷新几次，重启浏览器，或尝试以下网址:  
+5.	如 www.dlsite.com 网址依然无法访问，请多刷新几次，重启浏览器，或尝试以下网址:  
 www.dlsite.com/index.html  
 www.dlsite.com/home/  
 www.dlsite.com/maniax/  
@@ -56,7 +56,7 @@ www.dlsite.com/maniax/
 下面介绍Chrome和Edge这2个浏览器中的解决方法。
 ### Chrome
 1.	下载Gooreplacer插件  
-[点击这里下载](https://www.google.com)
+[点击这里下载](https://github.com/Shi-Iho/DLsite_hosts_guide/raw/master/crx/Gooreplacer_3.12.1.crx)
 2.	打开Chrome扩展程序界面  
 ![4_1_2](images/4_1_2.png)  
 3.	打开右上角的开发者模式  
@@ -80,7 +80,7 @@ www.dlsite.com/maniax/
 此部分内容由 github.com/cssxsh 提供。  
 1.	首先 edge 的版本，要尽量选择新版。 edge://settings/help
 2.	打开 microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN
-3.	搜索googlereplacer
+3.	搜索 googlereplacer
 4.	点击获取  
 ![4_2_4](images/4_2_4.png)
 1. 选择添加扩展  
