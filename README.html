@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>hosts&#x4FEE;&#x6539;&#x3001;&#x6CE8;&#x518C;&#x65E0;&#x6CD5;&#x6B63;&#x5E38;&#x9001;&#x4FE1;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="hosts修改注册无法正常送信解决方法">hosts修改、注册无法正常送信解决方法</h1>
+<h2 id="目录">目录</h2>
+<ul>
+<li>注意事项</li>
+<li>hosts修改教程</li>
+<li>检查是否生效</li>
+<li>注册无法正常送信解决方法</li>
+</ul>
+<h2 id="注意事项">注意事项</h2>
+<ol>
+<li>修改hosts不一定保证能正常访问网站；能访问，也很有可能速度很慢。想了解可以看<a href="hosts科普.md">这里</a></li>
+<li>服务器ip会变动，修改hosts文件不是一劳永逸的解决方法，假如哪天不能访问了，可以重新修改hosts文件，用最新的ip替换。</li>
+</ol>
+<h2 id="hosts修改教程">hosts修改教程</h2>
+<ol>
+<li>首先找到hosts文件，路径是 C:\Windows\System32\drivers\etc<br>
+<img src="images\2_1.png" alt="2_1"></li>
+<li>打开hosts文件，右键选择用记事本打开。<br>
+<img src="images\2_2.png" alt="2_2"></li>
+<li>打开网站 <a href="http://cssxsh.github.io">cssxsh.github.io</a> 。复制里面的内容。<br>
+因为网络不稳定，该网站可能无法正常访问，可以过段时间再看，或者找能访问的群友发给你网站内容。<br>
+<img src="images\2_3.png" alt="2_3"></li>
+<li>粘贴到hosts文件中。在文件原有内容下面粘贴即可。最后保存。<br>
+假如是重新修改hosts文件，记得替换掉以前的内容。<br>
+假如没有权限，请百度搜索：hosts、没有权限等关键词，自行解决。<br>
+<img src="images\2_4.png" alt="2_4"></li>
+<li>如 <a href="http://www.dlsite.com">www.dlsite.com</a> 网址依然无法访问，请多刷新几次，重启浏览器，或尝试以下网址:<br>
+<a href="http://www.dlsite.com/index.html">www.dlsite.com/index.html</a><br>
+<a href="http://www.dlsite.com/home/">www.dlsite.com/home/</a><br>
+<a href="http://www.dlsite.com/maniax/">www.dlsite.com/maniax/</a></li>
+</ol>
+<h2 id="检查是否生效">检查是否生效</h2>
+<p>修改hosts后，依然无法打开网站，可以按照下面的步骤检查一下。</p>
+<ol>
+<li>打开cmd。在电脑左下角的搜索中输入 cmd ，然后按回车(Enter)。<br>
+<img src="images\3_1.png" alt="3_1"></li>
+<li>输入指令运行。在打开的窗口中输入 ping <a href="http://www.dlsite.com">www.dlsite.com</a> ，然后按回车运行命令，等待运行结果。<br>
+<img src="images\3_2.png" alt="3_2"></li>
+<li>查看结果<br>
+如果连接失败，结果应该会是这样（会有4行超时）:<br>
+<img src="images\3_3_1.png" alt="3_3_1"><br>
+如果连接成功，结果应该会是这样:<br>
+<img src="images\3_3_2.png" alt="3_3_2"></li>
+<li>查看IP地址。假如连接失败，看一下IP地址是多少。<br>
+<img src="images\3_4_1.png" alt="3_4_1">
+<img src="images\3_4_2.png" alt="3_4_2"></li>
+<li>对比IP地址<br>
+查看网站 <a href="http://cssxsh.github.io">cssxsh.github.io</a> 中带有 <a href="http://www.dlsite.com">www.dlsite.com</a> 的行。<br>
+（可以在浏览器中按Ctrl + F，输入www.dlsite.com搜索）<br>
+<img src="images\3_5.png" alt="3_5"><br>
+看一下上面命令的运行结果中的IP地址是否与网页上的有相同的。如果有相同的IP地址，那说明hosts的修改已经生效，是其他原因导致的问题。如网站上提供的hosts信息已经过时等等。<br>
+本例中，在成功的情况下，命令运行结果中的IP是151.101.194.132，与网页上含有www.dlsite.com的第一行的IP相同。<br>
+（⚠注意，本文截图中的信息已经过时，请查看最新的网页上的信息来对比）<br>
+提问时最好带上hosts文件内容截图和ping www.dlsite.com命令运行结果的截图。</li>
+</ol>
+<h2 id="注册无法正常送信解决方法">注册无法正常送信解决方法</h2>
+<p><img src="images\4.png" alt="4"><br>
+造成这个问题的原因是DLsite使用了 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 的API，在国内无法正常访问。<br>
+下面介绍Chrome和Edge这2个浏览器中的解决方法。</p>
+<h3 id="chrome">Chrome</h3>
+<ol>
+<li>下载Gooreplacer插件<br>
+<a href="crx/Gooreplacer_3.12.1.crx">点击这里下载</a></li>
+<li>打开Chrome扩展程序界面<br>
+<img src="images\4_1_2.png" alt="4_1_2"></li>
+<li>打开右上角的开发者模式<br>
+<img src="images\4_1_3.png" alt="4_1_3"></li>
+<li>把crx文件拖到页面中，点击添加扩展程序。<br>
+<img src="images\4_1_4.png" alt="4_1_4"></li>
+<li>打开插件设置界面<br>
+<img src="images\4_1_5_1.png" alt="4_1_5_1">
+<img src="images\4_1_5_2.png" alt="4_1_5_2"></li>
+<li>添加重定向规则
+<ol>
+<li>点击重定向、新增</li>
+<li>在匹配规则中填写 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a></li>
+<li>在目标地址中填写 <a href="http://recaptcha.net/recaptcha">recaptcha.net/recaptcha</a></li>
+<li>点击提交<br>
+<img src="images\4_1_6_1.png" alt="4_1_6_1">
+<img src="images\4_1_6_2.png" alt="4_1_6_2">
+<img src="images\4_1_6_3.png" alt="4_1_6_3"></li>
+</ol>
+</li>
+<li>关闭插件页面，刷新注册页面</li>
+</ol>
+<h3 id="edge">Edge</h3>
+<p>此部分内容由 <a href="https://github.com/cssxsh">cssxsh</a> 提供。</p>
+<ol>
+<li>首先 edge 的版本，要尽量选择新版。 edge://settings/help</li>
+<li>打开 <a href="http://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN">microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN</a></li>
+<li>搜索 googlereplacer</li>
+<li>点击获取<br>
+<img src="images\4_2_4.png" alt="4_2_4"></li>
+<li>选择添加扩展<br>
+<img src="images\4_2_5.png" alt="4_2_5"></li>
+<li>点击配置规则，之后看Chrome的第6步<br>
+<img src="images\4_2_6.png" alt="4_2_6"></li>
+</ol>
+
+    </body>
+    </html>
