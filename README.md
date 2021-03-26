@@ -77,7 +77,7 @@ www.dlsite.com/maniax/
 7. 关闭插件页面，刷新注册页面  
 
 ### Edge
-此部分内容由 github.com/cssxsh 提供。  
+此部分内容由 [cssxsh](https://github.com/cssxsh) 提供。  
 1.	首先 edge 的版本，要尽量选择新版。 edge://settings/help
 2.	打开 microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN
 3.	搜索 googlereplacer
