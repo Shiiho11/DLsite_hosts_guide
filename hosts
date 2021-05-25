@@ -1,0 +1,104 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+# DLSite
+## download.sangfor.com.cn
+117.149.3.94 trial.dlsite.com
+117.149.3.94 img.dlsite.jp
+117.149.3.94 media.dlsite.com
+117.149.3.94 play.dl.dlsite.com
+117.149.3.94 media.ci-en.jp
+117.149.3.94 media.stg.ci-en.jp
+117.149.3.94 file.chobit.cc
+117.149.3.94 img.chobit.cc
+## download.dlsite.com.wtxcdn.com
+163.171.193.127 download.dlsite.com
+163.171.198.112 download.dlsite.com
+## www.dlsite.com
+151.101.18.132 ssl.dlsite.com
+151.101.18.132 www.dlsite.com
+151.101.18.132 www.nijiyome.com
+151.101.18.132 www.nijiyome.jp
+151.101.18.132 download.dlsite.com
+151.101.2.132 ssl.dlsite.com
+151.101.66.132 ssl.dlsite.com
+151.101.130.132 ssl.dlsite.com
+151.101.194.132 ssl.dlsite.com
+151.101.2.132 www.dlsite.com
+151.101.66.132 www.dlsite.com
+151.101.130.132 www.dlsite.com
+151.101.194.132 www.dlsite.com
+151.101.2.132 www.nijiyome.com
+151.101.66.132 www.nijiyome.com
+151.101.130.132 www.nijiyome.com
+151.101.194.132 www.nijiyome.com
+151.101.2.132 www.nijiyome.jp
+151.101.66.132 www.nijiyome.jp
+151.101.130.132 www.nijiyome.jp
+151.101.194.132 www.nijiyome.jp
+151.101.2.132 download.dlsite.com
+151.101.66.132 download.dlsite.com
+151.101.130.132 download.dlsite.com
+151.101.194.132 download.dlsite.com
+151.101.74.132 ssl.dlsite.com
+151.101.74.132 www.dlsite.com
+151.101.74.132 www.nijiyome.com
+151.101.74.132 www.nijiyome.jp
+151.101.74.132 download.dlsite.com
+151.101.114.132 ssl.dlsite.com
+151.101.114.132 www.dlsite.com
+151.101.114.132 www.nijiyome.com
+151.101.114.132 www.nijiyome.jp
+151.101.114.132 download.dlsite.com
+151.101.78.132 ssl.dlsite.com
+151.101.78.132 www.dlsite.com
+151.101.78.132 www.nijiyome.com
+151.101.78.132 www.nijiyome.jp
+151.101.78.132 download.dlsite.com
+151.101.110.132 ssl.dlsite.com
+151.101.110.132 www.dlsite.com
+151.101.110.132 www.nijiyome.com
+151.101.110.132 www.nijiyome.jp
+151.101.110.132 download.dlsite.com
+151.101.86.132 ssl.dlsite.com
+151.101.86.132 www.dlsite.com
+151.101.86.132 www.nijiyome.com
+151.101.86.132 www.nijiyome.jp
+151.101.86.132 download.dlsite.com
+## j.sni.global.fastly.net
+151.101.230.132 ssl.dlsite.com
+151.101.230.132 www.dlsite.com
+151.101.230.132 www.nijiyome.com
+151.101.230.132 www.nijiyome.jp
+151.101.230.132 download.dlsite.com
+151.101.78.132 ssl.dlsite.com
+151.101.78.132 www.dlsite.com
+151.101.78.132 www.nijiyome.com
+151.101.78.132 www.nijiyome.jp
+151.101.78.132 download.dlsite.com
+## play.dlsite.com
+54.168.144.173 play.dlsite.com
+54.65.219.246 play.dlsite.com
+54.64.138.132 play.dlsite.com
+## login.dlsite.com
+54.64.237.76 login.dlsite.com
+18.181.114.132 login.dlsite.com
+
