@@ -58,7 +58,7 @@ www.dlsite.com/maniax/
 下面介绍Chrome和Edge这2个浏览器中的解决方法。
 ### Chrome
 1.	下载Gooreplacer插件  
-[点击这里下载](https://github.com/Shi-Iho/DLsite_hosts_guide/raw/master/crx/Gooreplacer_3.12.1.crx)
+[点击这里下载](https://github.com/Shiiho11/DLsite_hosts_guide/raw/master/crx/Gooreplacer_3.12.1.crx)
 2.	打开Chrome扩展程序界面  
 ![4_1_2](images/4_1_2.png)  
 3.	打开右上角的开发者模式  
